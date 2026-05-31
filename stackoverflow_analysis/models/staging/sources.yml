@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stackoverflow
+    database: dataanalysisalpha
+    schema: stackoverflow
+    tables:
+      - name: users
