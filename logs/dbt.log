@@ -1,0 +1,30 @@
+[0m13:58:46.189802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10afe1160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c113750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c1139d0>]}
+
+
+============================== 13:58:46.214399 | b8403ab6-5c9a-422d-a8db-3962573088ab ==============================
+[0m13:58:46.214399 [info ] [MainThread]: Running with dbt=1.11.11
+[0m13:58:46.215018 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'printer_width': '80', 'introspect': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init stackoverflow_analysis', 'profiles_dir': '/Users/noahgomez/.dbt', 'empty': 'None', 'use_experimental_parser': 'False', 'debug': 'False', 'no_print': 'None', 'write_json': 'True', 'static_parser': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs'}
+[0m13:58:46.325497 [debug] [MainThread]: Starter project path: /Users/noahgomez/bq-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m13:58:46.355326 [info ] [MainThread]: 
+Your new dbt project "stackoverflow_analysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:58:46.356328 [info ] [MainThread]: Setting up your profile.
+[0m14:02:46.410427 [info ] [MainThread]: Profile stackoverflow_analysis written to /Users/noahgomez/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:02:46.425178 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 240.3493, "process_in_blocks": "0", "process_kernel_time": 0.87376, "process_mem_max_rss": "234242048", "process_out_blocks": "0", "process_user_time": 3.260429}
+[0m14:02:46.426966 [debug] [MainThread]: Command `dbt init` succeeded at 14:02:46.426787 after 240.35 seconds
+[0m14:02:46.427651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116027ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfcbd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11602dae0>]}
+[0m14:02:46.428317 [debug] [MainThread]: Flushing usage events
+[0m14:02:46.794520 [debug] [MainThread]: An error was encountered while trying to flush usage events
