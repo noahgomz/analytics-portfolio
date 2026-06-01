@@ -6,5 +6,5 @@ sources:
     schema: stackoverflow
     tables:
       - name: users
-      - name: posts
+      - name: qposts
       - name: votes

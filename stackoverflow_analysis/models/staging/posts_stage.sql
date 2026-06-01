@@ -11,7 +11,7 @@
 ) }}
 
 SELECT *
-FROM {{ source('stackoverflow', 'posts') }}
+FROM {{ source('stackoverflow', 'qposts') }}
 
 {% if is_incremental() %}
     WHERE creation_date > (SELECT MAX(creation_date) FROM {{ this }})
